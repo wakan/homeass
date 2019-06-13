@@ -6,6 +6,8 @@ homeassistant:
   unit_system: metric
   time_zone: Europe/Paris
 
+default_config:
+
 hue: !include components/hue.yaml
 logger: !include components/logger.yaml
 map:
