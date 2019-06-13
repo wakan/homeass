@@ -1,0 +1,4 @@
+- platform: darksky
+  mode: daily
+  api_key: !secret dark_sky_key
+  

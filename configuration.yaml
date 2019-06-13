@@ -11,4 +11,5 @@ sun:
 map:
 
 zone: !include zone/zones.yaml
+weather: !include components/weather.yaml
 logger: !include components/logger.yaml
