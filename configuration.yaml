@@ -10,3 +10,4 @@ sun:
 
 map:
 
+zone: !include zone/zones.yaml
