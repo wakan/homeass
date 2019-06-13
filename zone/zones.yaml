@@ -7,8 +7,7 @@
 - name: Work
   latitude: 43.473902
   longitude: 5.367863
-  radius: 30
+  radius: 99
   icon: mdi:mdi-hops
 
 
-  
