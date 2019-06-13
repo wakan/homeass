@@ -1,0 +1,12 @@
+homeassistant:
+  name: Home
+  latitude: !secret ha_latitude
+  longitude: !secret ha_longitude
+  elevation: 479
+  unit_system: metric
+  time_zone: Europe/Paris
+
+sun:
+
+map:
+
