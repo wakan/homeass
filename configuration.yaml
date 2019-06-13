@@ -11,4 +11,5 @@ logger: !include components/logger.yaml
 map:
 sun:
 weather: !include components/weather.yaml
+xiaomi_aqara: !include components/xiaomi_aqara.yaml
 zone: !include zone/zones.yaml
