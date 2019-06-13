@@ -6,10 +6,9 @@ homeassistant:
   unit_system: metric
   time_zone: Europe/Paris
 
-sun:
-
-map:
-
-zone: !include zone/zones.yaml
-weather: !include components/weather.yaml
+hue: !include components/hue.yaml
 logger: !include components/logger.yaml
+map:
+sun:
+weather: !include components/weather.yaml
+zone: !include zone/zones.yaml
