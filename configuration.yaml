@@ -9,6 +9,7 @@ homeassistant:
 hue: !include components/hue.yaml
 logger: !include components/logger.yaml
 map:
+notify: !include components/notify.yaml
 sun:
 weather: !include components/weather.yaml
 xiaomi_aqara: !include components/xiaomi_aqara.yaml

@@ -1,0 +1,4 @@
+- name: slackpi
+  platform: slack
+  api_key: !secret slack_key
+  default_channel: '#pi'
