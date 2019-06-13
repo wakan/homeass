@@ -1,0 +1,14 @@
+- name: Home
+  latitude: !secret ha_latitude
+  longitude: !secret ha_longitude
+  radius: 30
+  icon: mdi:home
+
+- name: Work
+  latitude: 43.473902
+  longitude: 5.367863
+  radius: 30
+  icon: mdi:mdi-hops
+
+
+  
