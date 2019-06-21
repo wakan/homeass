@@ -11,7 +11,9 @@ default_config:
 hue: !include components/hue.yaml
 logger: !include components/logger.yaml
 map:
+mqtt: !include components/mqtt.yaml
 notify: !include components/notify.yaml
+sensor: !include_dir_merge_list sensor/
 sun:
 system_health:
 weather: !include components/weather.yaml

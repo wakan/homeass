@@ -1,0 +1,13 @@
+- platform: mqtt
+  name: "Chambre Temp"
+  state_topic: "/ESP_Chambre/temp/Temperature"
+  value_template: "{{ value }}"
+  unit_of_measurement: "°C"
+  device_class: temperature
+
+- platform: mqtt
+  name: "Chambre Hum"
+  state_topic: "/ESP_Chambre/temp/Humidity"
+  value_template: "{{ value }}"
+  unit_of_measurement: "%"
+  device_class: humidity
