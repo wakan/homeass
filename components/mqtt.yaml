@@ -1,3 +1,4 @@
 broker: wakan-wrt.dns04.com
 username: wakan
 password: !secret mqtt_password
+client_id: "Hass"
