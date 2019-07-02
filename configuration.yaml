@@ -8,6 +8,7 @@ homeassistant:
 
 default_config:
 
+device_tracker: !include_dir_merge_list device_tracker/
 hue: !include components/hue.yaml
 logger: !include components/logger.yaml
 map:
