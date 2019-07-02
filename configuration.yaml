@@ -14,7 +14,6 @@ logger: !include components/logger.yaml
 map:
 mqtt: !include components/mqtt.yaml
 notify: !include components/notify.yaml
-owntracks: !include components/owntracks.yaml
 sensor: !include_dir_merge_list sensor/
 sun:
 system_health:
