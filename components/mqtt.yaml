@@ -1,0 +1,3 @@
+broker: wakan-wrt.dns04.com
+user: wakan
+password: !secret mqtt_password
