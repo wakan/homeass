@@ -2,3 +2,4 @@ discovery_retry: 5
 gateways:
   - mac: 7C:49:EB:19:3F:E4  
     key: !secret gateway_key
+    host: 192.168.2.32
