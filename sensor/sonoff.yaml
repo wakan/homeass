@@ -11,3 +11,18 @@
   value_template: "{{ value }}"
   unit_of_measurement: "%"
   device_class: humidity
+
+- platform: mqtt
+  name: "Entree Temp"
+  state_topic: "/ESP_Easy/temp/Temperature"
+  value_template: "{{ value }}"
+  unit_of_measurement: "°C"
+  device_class: temperature
+
+- platform: mqtt
+  name: "Entree Hum"
+  state_topic: "/ESP_Easy/temp/Humidity"
+  value_template: "{{ value }}"
+  unit_of_measurement: "%"
+  device_class: humidity
+
