@@ -1,1 +1,1 @@
-broker: 192.168.2.105:1883
+broker: mosquitto:1883
