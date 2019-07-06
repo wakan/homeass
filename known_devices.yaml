@@ -1,6 +1,14 @@
-devicename:
+wakan_phone_wifi:
   name: wakan_phone_wifi
+  hide_if_away: false
   mac: 30:45:96:96:33:CA
   picture: local/images/vin.jpg
   track: true
+
+pclenovo_lan:
+  name: wakan_laptop_wifi
   hide_if_away: false
+  mac: 30:D1:6B:EE:ED:81
+  name: pclenovo.lan
+  picture: local/images/vin.jpg
+  track: true
