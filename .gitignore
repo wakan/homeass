@@ -16,7 +16,6 @@ tts
 alarm.yaml
 ui-lovelace.yaml
 secrets.yaml
-known_devices.yaml
 *.conf
 plex.conf
 phue.conf

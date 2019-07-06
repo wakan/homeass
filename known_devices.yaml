@@ -1,0 +1,6 @@
+devicename:
+  name: wakan_phone_wifi
+  mac: 30:45:96:96:33:CA
+  picture: local/images/vin.jpg
+  track: true
+  hide_if_away: false
