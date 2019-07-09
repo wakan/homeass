@@ -1,5 +1,4 @@
 - platform: broadlink
-  type: rm_mini
   host: 192.168.2.33
   mac: 78:0F:77:B3:A2:ED
   monitored_conditions:
